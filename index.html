@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Climate Justice</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <!--<link rel="icon" type="image/x-icon" href="images/mini-logo.ico">-->
+  <link rel="icon" type="image/x-icon" href="images/mini-planet.png">
+
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+</head>
+
+  <body>
+
+    <!--navbar -->
+    <div class="navbar">
+      <!--<img src="images/mini-logo.ico" alt="Logo">-->
+      <img src="images/globe.png" alt="Logo">
+
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#impact">Impact of Climate Racism</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#involved">Get Involved</a></li>
+          <li ><button id="theme-button">Toggle Dark Mode</button></li>
+        </ul>
+      </div>
+
+
+    <!-- header - using flexbox layout -->
+    <div class="header-container">
+      <div class="header-item">
+        <div class="header-img"> <img src="./images/green-planet.png" alt="planet held up by 2 palms" width=250px/> </div>
+      </div>
+
+      <div class="header-item">
+        <h2>Breaking The Cycle Of Climate Racism<h2>
+        <button id="instagram-button" class="header-button"  type="button">Instagram</button>
+        <button id="twitter-button" class="header-button" type="button">Twitter</button>
+      </div> 
+    </div> 
+
+
+    <!-- about topic -->
+    <main>
+      <section id="about" class="revealable">
+        <h2>Climate Justice </h2> 
+        <h3>What is it?</h3>
+        <p>Climate justice is a critical issue that seeks to address the intersection of climate change and social justice. It recognizes that climate change affects different communities unequally and that vulnerable communities are disproportionately impacted by the effects of climate change.</p>
+        <p>Climate justice advocates believe that solutions to climate change must be equitable, and that addressing systemic inequalities is necessary to create a sustainable future for all people.</p>
+        <h3>Why is it Important?</h3>
+        <p>Climate justice is important because it recognizes that climate change is not just an environmental issue, but also a social and economic issue. The people who are most affected by climate change are often those who are least responsible for causing it, and who have the least resources to adapt to its impacts.</p>
+        <p>Communities of color and low-income communities are often the most vulnerable to the impacts of climate change and environmental pollution</p>
+    
+    <!-- impacts-->
+    </section>
+      <section id="impact" class="revealable">
+        <h2>Impact Of Climate Racism</h2>
+        <p>Climate racism refers to the disproportionate impact of environmental hazards, such as pollution and toxic waste sites, on communities of color and low-income communities. </p>
+
+        <h3>Health Disaparities</h3>
+        <p> Exposure to environmental hazards can lead to a range of health issues, including respiratory problems, cancer, and developmental delays.</p>
+        
+        <h3>Economic Impact</h3>
+        <p>The presence of environmental hazards can decrease property values and make it more difficult for these communities to attract businesses and economic development.</p>
+        
+        <h3>Forced Migration</h3>
+        <p>Communities of color and Indigenous peoples are more likely to live in areas that are most vulnerable to climate change impacts, such as coastal regions and areas with poor air quality.</p>
+      </section>
+      
+    <!-- external resources-->
+    <section id="resources" class="revealable">
+      <h2>Resources</h2>
+      <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pHRu0VV-Dbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </section>
+
+    <!-- newsletter sign up form-->
+
+    <div class="petition revealable" id="petition">
+
+      <h2>Sign Our Petition 📢</h2>
+      <div class="petition-container">
+  
+  
+        <div class="petition-para">
+          <!-- info goes here -->
+          <p> Sign up to sign our petition for climate justice and add your voice to our cause! By joining our petition, you can actively support our efforts to raise awareness about pressing environmental issues and advocate for policy changes that promote sustainability and protect our planet. By signing our petition, you can make a meaningful impact and help us push for positive change in addressing climate change and its impacts on vulnerable communities. 
+          Join us in taking action today by signing our petition and being a part of the movement for a more just and sustainable world!</p>
+        </div>
+  
+        <div class="signatures">
+          <p>🖊️ DJ from Brooklyn supports this.</p>
+          <p>🖊️ Amy from Queens supports this.</p>
+          <p>🖊️ Teresa from Harlem supports this.</p>
+        </div>
+  
+      </div>
+  
+    <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+      <!-- inputs go here -->
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+
+      <label for="hometown">Hometown</label>
+      <input type="hometown" id="hometown" name="hometown">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email"> 
+    </form>
+  
+     <!--- Sign Now Button --->
+    <button id="sign-now-button">Sign Now!</button>
+ 
+  
+  </div>
+    
+  </main>
+
+    <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content">Thank you for submitting your petition!</p>
+        <button id="close-modal-button">Close</button>
+      </div>
+      <img id="modal-img" src="images/modal-gif.gif" alt="Celebration Image">
+    </div>
+      
+  </div>
+
+    <div class="footer">
+      <p>Copyright © 2023 Climate Justice Education</p>
+    </div>
+  
+    <script src="index.js"></script>
+</body>
+
+ 
+</html>
+
