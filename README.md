@@ -1,4 +1,4 @@
-# Climate Justice Activism Website*
+# Climate Justice Activism Website
 
 Submitted by: **Yara Musad**
 
@@ -9,13 +9,14 @@ This web app: **This is an application to advocate for communities most impacted
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
-![](https://github.com/yimusad/community-board/blob/main/src/images/lab1.gif)
+
+
+![](https://github.com/yimusad/Activism-Project/blob/main/video-demo.gif)
 
 
 
 GIF created with ...  
-licecap
+ezgif
 
 
 ## Notes
